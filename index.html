@@ -1,0 +1,18 @@
+<html>
+    <head>
+    <title>Pizza ML model</title>
+    </head>
+    <body>
+        <center>
+            <form action="/predict" method="post">
+                <label>age</label><input type="text" name="age" placeholder="Enter Age">
+                <br>
+                <br>
+                <label>Weight</label><input type="text" name="weight" placeholder="Enter weight">
+                <br><br>
+                <input type="submit" value="predict">
+            </form>
+            {{ text_prediction }}
+        </center>
+    </body>
+</html>
