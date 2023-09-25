@@ -6,6 +6,9 @@ app = Flask(__name__)
 
 model = pickle.load(open('model.pkl','rb'))
 
+
+#ameen added code here
+print("helloooo")
 #default rout
 @app.route("/")
 def home():
